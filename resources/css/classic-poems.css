@@ -1,0 +1,81 @@
+/* smooch-regular - latin */
+@font-face {
+    font-family: 'Smooch';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Smooch/smooch-v5-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('../fonts/Smooch/smooch-v5-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/Smooch/smooch-v5-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/Smooch/smooch-v5-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/Smooch/smooch-v5-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/Smooch/smooch-v5-latin-regular.svg#Smooch') format('svg');
+    /* Legacy iOS */
+}
+
+/* raleway-regular - latin */
+@font-face {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Raleway/raleway-v27-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('../fonts/Raleway/raleway-v27-latin-regular.eot#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/Raleway/raleway-v27-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/Raleway/raleway-v27-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/Raleway/raleway-v27-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/Raleway/raleway-v27-latin-regular.svg#Raleway') format('svg');
+    /* Legacy iOS */
+}
+
+/* staatliches-regular - latin */
+@font-face {
+    font-family: 'Staatliches';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Staatliches/staatliches-v11-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: local(''),
+        url('../fonts/Staatliches/staatliches-v11-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/Staatliches/staatliches-v11-latin-regular.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('../fonts/Staatliches/staatliches-v11-latin-regular.woff') format('woff'),
+        /* Modern Browsers */
+        url('../fonts/Staatliches/staatliches-v11-latin-regular.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('../fonts/Staatliches/staatliches-v11-latin-regular.svg#Staatliches') format('svg');
+    /* Legacy iOS */
+}
+
+* {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-size: 1.25rem;
+}
+
+/* Styles background color*/
+body {
+    background-color: beige;
+}
+
+.logo {
+    font-size: 40px;
+    text-align: center;
+}
+
+.logo h1 {
+    font-family: 'Staatliches', Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    letter-spacing: 0.1rem;
+}
+

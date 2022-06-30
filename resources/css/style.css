@@ -1,0 +1,157 @@
+/* smooch-regular - latin */
+@font-face {
+  font-family: 'Smooch';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Smooch/smooch-v5-latin-regular.eot');
+  /* IE9 Compat Modes */
+  src: local(''),
+    url('../fonts/Smooch/smooch-v5-latin-regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('../fonts/Smooch/smooch-v5-latin-regular.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('../fonts/Smooch/smooch-v5-latin-regular.woff') format('woff'),
+    /* Modern Browsers */
+    url('../fonts/Smooch/smooch-v5-latin-regular.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('../fonts/Smooch/smooch-v5-latin-regular.svg#Smooch') format('svg');
+  /* Legacy iOS */
+}
+
+/* raleway-regular - latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Raleway/raleway-v27-latin-regular.eot');
+  /* IE9 Compat Modes */
+  src: local(''),
+    url('../fonts/Raleway/raleway-v27-latin-regular.eot#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('../fonts/Raleway/raleway-v27-latin-regular.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('../fonts/Raleway/raleway-v27-latin-regular.woff') format('woff'),
+    /* Modern Browsers */
+    url('../fonts/Raleway/raleway-v27-latin-regular.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('../fonts/Raleway/raleway-v27-latin-regular.svg#Raleway') format('svg');
+  /* Legacy iOS */
+}
+
+/* staatliches-regular - latin */
+@font-face {
+  font-family: 'Staatliches';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/Staatliches/staatliches-v11-latin-regular.eot');
+  /* IE9 Compat Modes */
+  src: local(''),
+    url('../fonts/Staatliches/staatliches-v11-latin-regular.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */
+    url('../fonts/Staatliches/staatliches-v11-latin-regular.woff2') format('woff2'),
+    /* Super Modern Browsers */
+    url('../fonts/Staatliches/staatliches-v11-latin-regular.woff') format('woff'),
+    /* Modern Browsers */
+    url('../fonts/Staatliches/staatliches-v11-latin-regular.ttf') format('truetype'),
+    /* Safari, Android, iOS */
+    url('../fonts/Staatliches/staatliches-v11-latin-regular.svg#Staatliches') format('svg');
+  /* Legacy iOS */
+}
+
+* {
+  font-family: 'Raleway', Arial, Helvetica, sans-serif;
+  font-size: 1.25rem;
+}
+
+/* Styles background color*/
+body {
+  background-color: beige;
+}
+
+/* Styles logo*/
+.logo {
+  font-size: 40px;
+
+
+}
+
+/* Styles header*/
+.logo h1 {
+  font-family: 'Staatliches', Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  color: black;
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
+
+
+
+/* Hides navbar*/
+@media only screen and (max-width: 635px) {
+ .spring-image {
+    display: none;
+  }
+}
+
+/* Creates grid container*/
+.grid-container {
+  display: grid;
+  gap: 50px;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  justify-content: space-evenly;
+  align-content: center;
+  margin-top: 6rem;
+  background-color: rgba(255, 183, 0, 0.929);
+}
+
+/* Styles headline*/
+.poem-of-day {
+  grid-column: 1 / span 4;
+  grid-row: 1 / span 3;
+  font-family: 'Staatliches', Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  margin-top: 1rem;
+  text-align: center;
+
+}
+
+.poem-name {
+  grid-column: 1 / span 1;
+  grid-row: 3 / span 1;
+  font-size: 5rem;
+  text-align: center;
+  font-family: 'Smooch',Arial, Helvetica, sans-serif;
+}
+
+.poem-author  {
+  grid-column: 1 / span 1;
+  grid-row: 4 / span  1;
+  text-decoration: none;
+  font-size: 2rem;
+  font-family: 'Staatliches', Arial, Helvetica, sans-serif;
+}
+
+.poem-author a {
+  font-family: 'Staatliches', Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  color: black;
+}
+
+.seasons {
+  grid-column: 1 / span 2;
+  grid-row: 5 / span 1;
+  font-family: 'Smooch', Arial, Helvetica, sans-serif;
+  font-size: 1.8rem;
+  text-rendering: optimizeLegibility;
+  line-height: calc(1ex / 0.32);
+  margin: calc(1ex / 0.37) 0;
+  word-spacing: calc(1ex / 0.7);
+}
+
+.spring-image {
+  grid-column: 4 / span 4;
+  grid-row: 4 / span 4;
+  background-blend-mode: lighten;
+}
+

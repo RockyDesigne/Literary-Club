@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./resources/css/style.css">
+    <link rel="stylesheet" href="./resources/css/header&footer.css">
+    <link rel="stylesheet" href="./resources/css/about.css">
+    <script src="./resources/js/script.js" async></script>
+    <title>Literary Club</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <h1 class="header">Literary Club</h1>
+        </div>
+        <div class="navigation" id="topnav">
+            <nav>
+                <div class="navbar">
+                    <ul class="navlist">
+                        <li><a href='./index.html'>Home</a> </li>
+                        <li class="poem-dropdown"><button class="poem-down">Poems<div class="dropdown-content"><a href="./amateur-poems.html"> Amateur</a>
+                            <a href="./classic-poems.html">Classic</a>
+                        </div>
+                    </button></li>
+                        <li><a href="./authors.html">Authors</a> </li>
+                        <li><a href="./about.html">About</a> </li>
+                        <li><a href="./submit.html">Submit</a> </li>
+                        <li id="contact"><a class="active" href="#contact-us">Contact Us</a> </li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+
+                    <button onclick="menuDown()" class="dropbtn">Menu</button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="./index.html">Home</a>
+                        <a href="./amateur-poems.html">Amateur Poems</a>
+                        <a href="./classic-poems.html">Classic Poems</a>
+                        <a href="./authors.html">Authors</a>
+                        <a href="./about.html">About</a>
+                        <a href="./submit.html">Submit</a>
+                        <a href="#contact-us">Contact Us</a>
+                    </div>
+                </div>
+
+            </nav>
+    </header>
+    <main>
+        <div class="flex">
+            <div class="text">
+                <p>
+                    We love poetry
+                </p>
+            </div>
+        </div>
+        <div class="together">
+          <p>We love spending time together</p>
+        </div>
+        <div class="join">
+            <p>
+                Come join us today
+            </p>
+        </div>
+    </main>
+    <footer>
+        <div class="contact-section" id="contact-us">
+            <div class="head">
+                <p>Contact</p>
+            </div>
+            <div>
+                <p>Adress: Tapekee Bay, 64 street</p>
+            </div>
+            <div>
+                <p>Email: literaryclub@contact.com</p>
+            </div>
+            <div>
+                <p>@Copyright 2022 Literary Club</p>
+            </div>
+            <div>
+                <p>Images thanks to <a href="https://unsplash.com/" target="_blank"> Unsplash.</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

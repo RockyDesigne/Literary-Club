@@ -1,0 +1,66 @@
+img {
+    width: 15rem;
+    height: 15rem;
+    margin: 0 6rem;
+}
+
+.stewart {
+    margin: 0.5rem 1rem 0 2rem;
+}
+
+.stewart h2 {
+  font-size: 2rem;
+  margin: 2rem 5rem;
+}
+
+.stewart p {
+    overflow-wrap: break-word;
+    margin: 0.4rem 1rem;
+    padding: 0;
+    text-align: left;
+    word-break: break-all;
+    justify-content: center;
+    align-items: center;
+    hyphens: auto;
+}
+
+@media only screen and (max-width: 965px) {
+    img {
+       display: none;
+     }
+   }
+
+   .woodrow {
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+   }
+
+   .woodrow h2 {
+    font-size: 2rem;
+    margin: 2rem 5rem;
+    text-align: center;
+   }
+
+   .woodrow p {
+    overflow-wrap: break-word;
+    margin: 0 2rem;
+    padding: 0;
+    text-align: center;
+    word-break: break-all;
+    justify-content: center;
+    align-items: center;
+    hyphens: auto;
+    width: 83%;
+    height: 20%;
+    line-height: 2rem;
+    hyphens: auto;
+
+}
+   
+.woodrow img {
+  width: 25rem;
+  height: 15rem;
+  margin: 2rem 17rem;
+
+}

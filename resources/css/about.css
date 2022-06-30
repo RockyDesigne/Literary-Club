@@ -1,0 +1,68 @@
+.flex {
+    display: flex;
+    text-align: center;
+    margin: 6rem 0;
+    height: 10rem;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/alfons-morales-YLSwjSy7stw-unsplash.jpg);
+    background-size: cover;
+}
+
+.flex p {
+    overflow-wrap: break-word;
+    margin: 0.4rem 1rem;
+    padding: 0;
+    text-align: center;
+    word-break: break-all;
+    color: white;
+    font-family: 'Smooch', Arial, Helvetica, sans-serif;
+    font-size: 4rem !important;
+    letter-spacing: 0.2rem;
+}
+
+.together {
+    background-image: url(../images/priscilla-du-preez-XkKCui44iM0-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    margin: 6rem 0;
+    height: 10rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.together p {
+    overflow-wrap: break-word;
+    margin: 0.4rem 1rem;
+    padding: 0;
+    text-align: center;
+    word-break: break-all;
+    color: white;
+    font-family: 'Smooch', Arial, Helvetica, sans-serif;
+    font-size: 4rem !important;
+    letter-spacing: 0.2rem;
+}
+
+.join {
+    background-image: url(../images/janko-ferlic-sfL_QOnmy00-unsplash.jpg);
+    background-size: cover;
+    display: flex;
+    text-align: center;
+    margin: 6rem 0;
+    height: 10rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.join p {
+    overflow-wrap: break-word;
+    margin: 0.4rem 1rem;
+    padding: 0;
+    text-align: center;
+    word-break: break-all;
+    color: white;
+    font-family: 'Smooch', Arial, Helvetica, sans-serif;
+    font-size: 4rem !important;
+    letter-spacing: 0.2rem;
+}

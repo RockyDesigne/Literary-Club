@@ -1,0 +1,10 @@
+form {
+    text-align: center;
+    line-height: 30px;
+    height: 80%;
+    overflow: auto;
+  }
+
+  #author {
+    text-align: center;
+  }
